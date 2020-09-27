@@ -1,0 +1,20 @@
+Ativar virtual env:
+abrir o cmd
+cd projeto
+cd bin
+.\activate
+
+Criar projeto Django
+django .\manage.py runserver
+
+Parar servidor
+ctrl + c
+
+Criar tabelas no banco de dados
+python .\manage.py migrate
+
+Criar superusuario
+python .\manage.py createsupersuser
+
+Criar app
+python .\manage.py startapp website
