@@ -18,3 +18,19 @@ python .\manage.py createsupersuser
 
 Criar app
 python .\manage.py startapp website
+
+Mostrar histórico do repositório
+git status
+
+Fazer um commit
+git add .
+git commit -m "Novo"
+git push origin master
+git push -u origin master
+
+Add remote
+git remote add origin endereço
+git remote add origin https://github.com/Josenetomartins/websitedjango
+
+List branchs
+git branch -v
